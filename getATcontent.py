@@ -1,5 +1,4 @@
-################################################################
-#@author: Haidan Wu                       
+################################################################                   
 #                                         
 #Calculate AU content                     
 #Usage: python getAT content.py fasta.file > AT_content.output 
