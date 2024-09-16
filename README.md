@@ -11,7 +11,7 @@ The workflows of this part were developed based on two published software tools 
 
 2.1	Systematic identification of RNA structural motifs associated with stability was performed using the pyTEISER framework<sup>5</sup>. For more information, visit pyTEISER on GitHub website **(https://github.com/goodarzilab/pyteiser)**.
 
-2.2	Normalization and modeling of mRNA decay profiles were conducted using the tools and methods outlined in the RNAdecay package<sup>6</sup>. For detailed guidance on these processes, refer to the RNAdecay workflow documentation **(https://bioconductor.org/packages-/release/bioc/vignettes/RNAdecay/inst/doc/RNAdecay_workflow.html)**. This R script modified according to the genetic characteristics of wheat have also been uploaded.
+2.2	Normalization and modeling of mRNA decay profiles were conducted using the tools and methods outlined in the RNAdecay package<sup>6</sup>. For detailed guidance on these processes, refer to the RNAdecay workflow documentation **(https://bioconductor.org/packages/release/bioc/vignettes/RNAdecay/inst/doc/RNAdecay_workflow.html)**. This R script modified according to the genetic characteristics of wheat have also been uploaded.
 
 **Script1: RNA_decay_rate_calculate_for_wheat.R** 
 
