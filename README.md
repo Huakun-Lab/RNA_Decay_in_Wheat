@@ -16,7 +16,7 @@ The workflows of this part were developed based on two published software tools 
 **Script1: RNA_decay_rate_calculate_for_wheat.R** 
 
 ### 3.  Parameters Calculation Python Scripts:
-These Python scripts are developed for computing various parameters critical to the analysis, such as codon adaptation index (CAI), codon stabilization coefficient (CSC), frequency of codons in each transcript, GC content, AU content, sequence length, and intron numbers. These parameters are the potential factors to affect RNA stability. 
+These Python scripts are developed for computing various parameters critical to the analysis, such as GC content, AU content, sequence length, and intron numbers. These parameters are the potential factors to affect RNA stability. 
 #### 3.1 Reads count through bam file
 Script2: atlas_count_rnaseq
 #### 3.2 GC content
