@@ -4,8 +4,6 @@
 #Bivariate Correlations analysis          #
 ###########################################
 
-library(ggplot2)
-library(ggpubr)
 library(ggstatsplot)
 options(stringsAsFactors=F)
 
