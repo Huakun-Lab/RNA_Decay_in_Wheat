@@ -4,7 +4,7 @@
 This repository contains scripts and workflows for analyzing RNA structure-mediated regulations of RNA stability in wheat. This documentation is divided into five main categories, each represented by a specific set of scripts. In addition, we have included detailed steps for data preparation required for the analyses.
 
 ### 1.	Data preparation
-The RNA-seq mapping and SNP calling workflow for the RNA-seq libraries of B028, B086, and Kronos accessions is consistent with the methods presented in Yang's study<sup>s1</sup>. If there is any overlapping data, previously collected data will be utilized directly. Hisat2 v2.1.02 was used for mapping the trimmed reads to the durum wheat genome assembly (Svevo RefSeq 1.0)3 corrected by accession-specific SNVs information from previous study4.
+The RNA-seq mapping and SNP calling workflow for the RNA-seq libraries of B028, B086, and Kronos accessions is consistent with the methods presented in Yang's study<sup>1</sup>. If there is any overlapping data, previously collected data will be utilized directly. Hisat2 v2.1.0<sup>2</sup> was used for mapping the trimmed reads to the durum wheat genome assembly (Svevo RefSeq 1.0)<sup>3</sup>  corrected by accession-specific SNVs information from previous study<sup>4</sup>.
 
 ### 2.  The core softwares and workflows:
 The workflows of this part were developed based on two published software tools for RNA structural motifs prediction and related analyses on modeling of mRNA Decay. The workflows applied in this study for RNA structural motifs analysis and modeling of decay rates are comprehensively described in the materials and methods section of our manuscript.
