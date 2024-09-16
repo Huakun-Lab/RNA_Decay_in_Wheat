@@ -32,6 +32,7 @@ Script6: get_intron_number_from_gff3.py
 These R scripts are primarily developed for data cleaning, organization, and classification, significance analysis, and correlation analysis.
 #### 4.1 Data cleaning and organization
 Script7: abundance_filted_0min_greater_1_all.R
+
 Script8: merge_dada_file_by_ID_find_gene_pairs.R
 #### 4.2 Min_max_normalization
 Script9: nomalized_by_Min_max_normalization.R
