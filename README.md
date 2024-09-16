@@ -4,12 +4,12 @@
 This repository contains scripts and workflows for analyzing RNA structure-mediated regulations of RNA stability in wheat. This documentation is divided into five main categories, each represented by a specific set of scripts. In addition, we have included detailed steps for data preparation required for the analyses.
 
 ### 1.	Data preparation
-The RNA-seq mapping and SNP calling workflow for the RNA-seq libraries of B028, B086, and Kronos accessions is consistent with the methods presented in Yang's study1. If there is any overlapping data, previously collected data will be utilized directly. Hisat2 v2.1.02 was used for mapping the trimmed reads to the durum wheat genome assembly (Svevo RefSeq 1.0)3 corrected by accession-specific SNVs information from previous study4.
+The RNA-seq mapping and SNP calling workflow for the RNA-seq libraries of B028, B086, and Kronos accessions is consistent with the methods presented in Yang's study<sup>s1</sup>. If there is any overlapping data, previously collected data will be utilized directly. Hisat2 v2.1.02 was used for mapping the trimmed reads to the durum wheat genome assembly (Svevo RefSeq 1.0)3 corrected by accession-specific SNVs information from previous study4.
 
 ### 2.  The core softwares and workflows:
 The workflows of this part were developed based on two published software tools for RNA structural motifs prediction and related analyses on modeling of mRNA Decay. The workflows applied in this study for RNA structural motifs analysis and modeling of decay rates are comprehensively described in the materials and methods section of our manuscript.
 2.1	Systematic identification of RNA structural motifs associated with stability was performed using the pyTEISER framework5. For more information, visit pyTEISER on GitHub website **(https://github.com/goodarzilab/pyteiser)**.
-2.2	Normalization and modeling of mRNA decay profiles were conducted using the tools and methods outlined in the RNAdecay package6. For detailed guidance on these processes, refer to the RNAdecay workflow documentation (https://bioconductor.org/packages-/release/bioc/vignettes/RNAdecay/inst/doc/RNAdecay_workflow.html). This R script modified according to the genetic characteristics of wheat have also been uploaded.
+2.2	Normalization and modeling of mRNA decay profiles were conducted using the tools and methods outlined in the RNAdecay package6. For detailed guidance on these processes, refer to the RNAdecay workflow documentation **(https://bioconductor.org/packages-/release/bioc/vignettes/RNAdecay/inst/doc/RNAdecay_workflow.html)**. This R script modified according to the genetic characteristics of wheat have also been uploaded.
 **Script1: RNA_decay_rate_calculate_for_wheat.R** 
 
 ### 3.  Parameters Calculation Python Scripts:
