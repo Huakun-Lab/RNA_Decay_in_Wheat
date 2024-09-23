@@ -22,7 +22,7 @@ Script2: atlas_count_rnaseq
 #### 3.2 GC content
 Script3: getGCcontent.py
 #### 3.3 AU content
-Script4: getATcontent
+Script4: getATcontent.py
 #### 3.4 sequence length
 Script5: count_length_for_fasta.py
 #### 3.5 intron numbers count through .gff3 file
